@@ -1,0 +1,102 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #2E4053
+  }
+
+  body {
+    padding: 60px;
+  }
+  
+  
+  input {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 32, 158);
+    color: black;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    margin-left: -15px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #884EA0;
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  .card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    height: 450px;
+    width: 350px;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    height: auto;  
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    /* width: 23%; */
+  }
+  
+  .card p {
+    background-color: white;
+    flex: 1;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    /* width: 100%; */
+    max-height: 170px;
+  }
+
+  .button {
+    background-color: #884EA0; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1em;
+  }
+  
+  .button:hover {
+    background-color: #AF7AC5; /* Green */
+    color: white;
+  }
+
+  
+
+ 
