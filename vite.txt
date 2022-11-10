@@ -1,0 +1,7 @@
+yarn create vite
+yarn
+yarn dev
+
+--configurar jest
+yarn add --dev jest
+yarn test
